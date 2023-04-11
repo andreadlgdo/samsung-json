@@ -1,0 +1,80 @@
+{
+	"supermercados": [
+		{
+			"nombre": "Mercadona",
+			"direccion": "Calle magdalena",
+			"latitud": "43.360365",
+			"longitud": "-5.846602",
+			"productos": [
+				{
+					"nombre": "Agua",
+					"isOferta": false,
+					"periodoVigencia": {
+						"inicio": "2023-03-15",
+						"fin": "2023-04-29"
+					},
+					"unidades": 5,
+					"unidadMedida": "litros",
+					"precio": 0.90,
+					"isAdquirido": true
+				},
+				{
+					"nombre": "Pasta",
+					"isOferta": false,
+					"periodoVigencia": {
+						"inicio": "2023-04-15",
+						"fin": "2023-05-09"
+					},
+					"unidades": 1,
+					"unidadMedida": "kilo",
+					"precio": 1.60,
+					"isAdquirido": false
+				}
+			]
+		},
+		{
+			"nombre": "Carrefour",
+			"direccion": "Centro comercial los prados",
+			"latitud": "43.377334",
+			"longitud": "-5.863611",
+			"productos": [
+				{
+					"nombre": "Galletas",
+					"isOferta":true,
+					"periodoVigencia": {
+						"inicio": "2023-01-01",
+						"fin": "2024-07-05"
+					},
+					"unidades": 2,
+					"unidadMedida": "paquetes",
+					"precio": 2.75,
+					"isAdquirido": false
+				},
+				{
+					"nombre": "Arroz",
+					"isOferta": false,
+					"periodoVigencia": {
+						"inicio": "2023-03-05",
+						"fin": "2024-05-19"
+					},
+					"unidades": 500,
+					"unidadMedida": "gramos",
+					"precio": 1.00,
+					"isAdquirido": true
+				},
+				{
+					"nombre": "chocolate",
+					"isOferta": true,
+					"periodoVigencia": {
+						"inicio": "2023-04-15",
+						"fin": "2023-06-29"
+					},
+					"unidades": 200,
+					"unidadMedida": "gramos",
+					"precio": 2.30,
+					"isAdquirido": true
+				}
+			]
+		}
+	]
+}
